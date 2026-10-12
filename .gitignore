@@ -1,0 +1,71 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+#for app log
+app.log
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python testing and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB vector database
+chroma_db/
+chroma/
+chroma_data/
+chroma_storage/
+chroma.sqlite3
+
+# Temporary and uploaded files
+temp/
+tmp/
+uploads/
+*.tmp
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local secrets and credentials
+credentials.json
+secrets.json
